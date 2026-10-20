@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# tests / coverage
+coverage/
+.test-db.json
+.nyc_output
+
+# embedded PostgreSQL cluster (local development only)
+.pgdata/
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
